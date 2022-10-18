@@ -1285,11 +1285,11 @@ pre .javascript .function {
     color: #fff;
   }
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 768px) {
   #sidebar {
     display: inline;
     float: left;
-    width: 13.333333333333332%;
+    width: 23.333333333333332%;
     margin: 0 0.833333333333333%;
   }
 }
