@@ -71,9 +71,196 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-April-Test" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <article id="post-Work Notes_2" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2022/10/18/April-Test/" class="article-date">
+    <a href="/2022/10/19/Work%20Notes_2/" class="article-date">
+  <time class="dt-published" datetime="2022-10-19T08:15:00.000Z" itemprop="datePublished">2022-10-19</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/10/19/Work%20Notes_2/">PMP Study Notes| Day 1</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>項目需求: 數據工程師&#x2F;算法工程師</p>
+<h2 id="面試問題"><a href="#面試問題" class="headerlink" title="面試問題"></a>面試問題</h2><h3 id="通用題"><a href="#通用題" class="headerlink" title="通用題"></a>通用題</h3><ol>
+<li><p>详细讲一下自己的做的项目&#x2F;paper中的算法，你負責了哪部分的工作？</p>
+</li>
+<li><p>光譜數據預處理的方法？</p>
+</li>
+<li><p>開發一個農業大數據系統架構的一些簡單思路。</p>
+</li>
+</ol>
+<h3 id="軟件工程師-JAVA"><a href="#軟件工程師-JAVA" class="headerlink" title="軟件工程師(JAVA)"></a>軟件工程師(JAVA)</h3><ol>
+<li>列举JAVA语言的主要特点：</li>
+</ol>
+<p>  ①跨平台性：一个应用可以不经过修改直接运行到不同的平台上。</p>
+<p>  ②面向对象：JAVA语言是一门面向对面的语言，可以使用对象的属性和行为，可以使用面向对象的思想进行分析设计，并实现整个应用。</p>
+<p>  ③解释执行JAVA应用时，JAVA虚拟机中的解释器将解释类文件，生成符合当前平台的字节码。</p>
+<p>  ④自动回收：JAVA应用中的垃圾回收是自动进行的，JVM中的后台线程将监视内存中数据的使用，当内存中的数据不再被引用时，将被作为垃圾回收，而不需要程序员动手回收。</p>
+<ol start="2">
+<li>请解释Java语言的跨平台特性。</li>
+</ol>
+<p>  Java的跨平台特性也被称为可移植性、平台无关性，或者一次编写处处运行。他的意思就是如果用Java语言编写一个应用，那么就可以在不同平台上运行，而不需要为不同平台单独运行开发。之所以能实现跨平台的特性。主要得益于Java虚拟机（JVM），JVM解释器在运行Java应用时根据当前平台进行解释，解释成符合当前平台规范的机器码，所以可以实现同样的应用在不同平台上都能运行。</p>
+<ol start="3">
+<li>同步和异步有何异同，在什么情况下分别使用他们？举例说明。</li>
+</ol>
+<p>  如果数据将在线程间共享。例如正在写的数据以后可能被另一个线程读到，或者正在读的数据可能已经被另一个线程写过了，那么这些数据就是共享数据，必须进行同步存取。</p>
+<p>  当应用程序在对象上调用了一个需要花费很长时间来执行的方法，并且不希望让程序等待方法的返回时，就应该使用异步编程，在很多情况下采用异步途径往往更有效率。</p>
+<h3 id="算法工程師-Python"><a href="#算法工程師-Python" class="headerlink" title="算法工程師(Python)"></a>算法工程師(Python)</h3><ol>
+<li><p>看到你個人也是用Tensorflow做了一些機器學習，深度學習相關的項目，那麼如果一個模型训练集准确率还可以，但测试集的准确率比训练集的差了很多，說明什麼（過擬合）？應該如何改進？</p>
+<ol>
+<li>简化模型。就是这包括了减少特征数量，可以降低树的深度、采用剪枝等；</li>
+</ol>
+</li>
+</ol>
+<ol start="2">
+<li><p>增加训练数据，采用数据增强的方法，比如人工合成训练数据等；</p>
+</li>
+<li><p>早停，当验证集上的误差没有进一步改善，训练提前终止；</p>
+</li>
+<li><p>正则化，常用 L1 或者 L2 正则化。</p>
+</li>
+<li><p>集成学习方法，训练多个模型，并以每个模型的平均输出作为结果，降低单一模型的过拟合风险，常用方法有 bagging、boosting、dropout(深度学习中的方法)等；</p>
+</li>
+<li><p>噪声注入：包括输入噪声注入、输出噪声注入、权重噪声注入。<br>将噪声分别注入到输入&#x2F;输出&#x2F;权重参数中，虽然噪声可能是模型过拟合的一个原因，但第一可以通过交叉验证来避免；第二就是没有噪声的完美数据也是很有可能发生过拟合；第三可以选择在特征、权值参数加入噪声，而非直接在数据加入噪声。</p>
+</li>
+</ol>
+<p> 2. </p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/10/19/Work%20Notes_2/" data-id="cl9fd91ey0005pzrmhglxdjtr" data-title="PMP Study Notes| Day 1" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Work/" rel="tag">Work</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Work Notes_1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/10/19/Work%20Notes_1/" class="article-date">
+  <time class="dt-published" datetime="2022-10-19T06:47:00.000Z" itemprop="datePublished">2022-10-19</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/10/19/Work%20Notes_1/">PMP Study Notes| Day 1</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="農業大數據系統架構思路"><a href="#農業大數據系統架構思路" class="headerlink" title="農業大數據系統架構思路"></a>農業大數據系統架構思路</h2><p>工業大數據系統架構能夠為高效管理製造數據流，有助於解決不同場景業務訴求。</p>
+<h3 id="數據採集方法"><a href="#數據採集方法" class="headerlink" title="數據採集方法"></a>數據採集方法</h3><p>信息採集器可以通過紅外光（或紫外光等）讀取農作物光譜，也可以採用拍照法式獲取植物形狀信息，通過手機標準接口或無線連接方式，將採集的信息傳輸至手機APP中，由手機APP對信息進行處理。</p>
+<h3 id="數據集成層"><a href="#數據集成層" class="headerlink" title="數據集成層"></a>數據集成層</h3><p>數據集成層能夠採集不同來源的數據，進行集中管理，為後續分析及應用提供數據儲備。主要解決數據的分佈性和異構性的問題，其前提是被集成應用必須公開數據結構，即必須公開表結構，表間關係，編碼的含義等。</p>
+<p>  <strong>數據高速緩存器是關鍵</strong><br>  對數據集成體系結構來説，關鍵是擁有一個包含有目標計劃、源－目標映射、數據獲得、分級抽取、錯誤恢復和安全性轉換的數據高速緩存器。此外，數據高速緩存器包含有預先定製的數據抽取工作，這些工作自動地位於一個企業的後端及數據倉庫之中。</p>
+<p>  <strong>關鍵步驟：</strong> <a target="_blank" rel="noopener" href="https://baike.baidu.hk/item/%E6%95%B8%E6%93%9A%E9%9B%86%E6%88%90/8263271">https://baike.baidu.hk/item/%E6%95%B8%E6%93%9A%E9%9B%86%E6%88%90/8263271</a></p>
+<p>  1.與軟件廠商合作</p>
+<pre><code>作為企業，讓廠商正確理解你的業務需求對自己有益無害。因為只有這樣，廠商高管才能準確識別並集成所有你需要的數據點。
+</code></pre>
+<p>  2.定義劃分集成優先級</p>
+<pre><code>列出所有所需的數據集成任務，安排好部署計劃。你的目標應該是在部署或正式投入使用階段之前完成所有的數據集成活動，並界定增長數據的更新頻率。除此之外，還要本着成本時間的節約，根據數據集成解決方案對其效益進行估測。
+</code></pre>
+<p>  3.選擇合適的集成界面</p>
+<pre><code>數據集成解決方案提供了兩種數據界面：單向和雙向。你需要知道應該應用哪種。
+</code></pre>
+<p>  4.選擇一款正確的接口媒體，最簡單的不一定最好</p>
+<p>  選擇接口媒體一定要考慮未來需求和升級問題。數據集成有很多種方法——XML、逗號限定、電子表格、直接數據庫連接等等；然而，最簡單的方法不一定最適合你的企業，應該從多方面進行考慮，如可擴展性需求、數據容量和預算開銷等。多年來，基於文本的集成一直很盛行，但是有很多企業都開始使用XML和直接數據庫連接。</p>
+<p>  5.監控流程，設置多個檢測點</p>
+<p>  對集成數據進行微調。對我們的B2B平台來説，數據集成在每天結束的時候都會進行，而只有增長的數據會被傳送到服務器上。Hypercity的檢測點從源系統開始，分佈於各個級別。一些涉及銷售數量和零售價格的問題在這些檢測點中提出。B2B平台的提取上載階段構成了第二個檢測點，問題的答案會在這裏出現。自動化系統會檢測輸入數據的準確性。為了避免錯誤的出現，相關用户會收到提示郵件，以確認全天的數據是不是正確上載、是不是需要糾錯措施。</p>
+<p>  6.保證數據的安全性</p>
+<p>  根據風險級別設置安全政策。如果你只是在內網中轉換數據，也許不需要加密；但如果你需要將數據對外傳送，可能就要加以防範了。</p>
+<h3 id="数据分析层"><a href="#数据分析层" class="headerlink" title="数据分析层"></a>数据分析层</h3><p>  紅外光譜數據庫在國外的應用相對國內較為普及。如著名的薩特勒(Sadtler)數據庫、日本的 SDBS 數據庫和阿德里奇(A1der.ich)數據庫等。國外研製各种红外光譜的計算機檢索軟件和數據庫供出售或出租，平均每張光譜要 1 美元，遠非國內一般單位所能購買得起的。</p>
+<p>  所以，我國自行研製紅外光譜數據庫和紅外光譜的計算機檢索軟件是<strong>勢在必行</strong>的。</p>
+<h3 id="应用场景层"><a href="#应用场景层" class="headerlink" title="应用场景层"></a>应用场景层</h3><h3 id="運行平台"><a href="#運行平台" class="headerlink" title="運行平台"></a>運行平台</h3>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/10/19/Work%20Notes_1/" data-id="cl9fd91ey0003pzrm3bn50cgl" data-title="PMP Study Notes| Day 1" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Work/" rel="tag">Work</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-PMP Study Notes_2" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/10/19/PMP%20Study%20Notes_2/" class="article-date">
+  <time class="dt-published" datetime="2022-10-19T06:25:00.000Z" itemprop="datePublished">2022-10-19</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/10/19/PMP%20Study%20Notes_2/">PMP Study Notes| Day 2</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h3 id="Project-Charter"><a href="#Project-Charter" class="headerlink" title="Project Charter"></a>Project Charter</h3>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/10/19/PMP%20Study%20Notes_2/" data-id="cl9fd91ex0001pzrmd9mq440s" data-title="PMP Study Notes| Day 2" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PMP/" rel="tag">PMP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Review/" rel="tag">Review</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Study/" rel="tag">Study</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-PMP Study Notes_1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/10/18/PMP%20Study%20Notes_1/" class="article-date">
   <time class="dt-published" datetime="2022-10-18T02:46:56.000Z" itemprop="datePublished">2022-10-18</time>
 </a>
     
@@ -85,7 +272,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/10/18/April-Test/">PMP Study Notes| -1-</a>
+      <a class="p-name article-title" href="/2022/10/18/PMP%20Study%20Notes_1/">PMP Study Notes| Day 1</a>
     </h1>
   
 
@@ -103,7 +290,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/10/18/April-Test/" data-id="cl9dmxhr70000qtrm4uy90j8l" data-title="PMP Study Notes| -1-" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/10/18/PMP%20Study%20Notes_1/" data-id="cl9fd91eu0000pzrm6ulnhye8" data-title="PMP Study Notes| Day 1" class="article-share-link">Share</a>
       
       
       
@@ -130,7 +317,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/PMP/" rel="tag">PMP</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Review/" rel="tag">Review</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Study/" rel="tag">Study</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/PMP/" rel="tag">PMP</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Review/" rel="tag">Review</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Study/" rel="tag">Study</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Work/" rel="tag">Work</a></li></ul>
     </div>
   </div>
 
@@ -140,7 +327,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/PMP/" style="font-size: 10px;">PMP</a> <a href="/tags/Review/" style="font-size: 10px;">Review</a> <a href="/tags/Study/" style="font-size: 10px;">Study</a>
+      <a href="/tags/PMP/" style="font-size: 10px;">PMP</a> <a href="/tags/Review/" style="font-size: 10px;">Review</a> <a href="/tags/Study/" style="font-size: 10px;">Study</a> <a href="/tags/Work/" style="font-size: 10px;">Work</a>
     </div>
   </div>
 
@@ -162,7 +349,19 @@
       <ul>
         
           <li>
-            <a href="/2022/10/18/April-Test/">PMP Study Notes| -1-</a>
+            <a href="/2022/10/19/Work%20Notes_2/">PMP Study Notes| Day 1</a>
+          </li>
+        
+          <li>
+            <a href="/2022/10/19/Work%20Notes_1/">PMP Study Notes| Day 1</a>
+          </li>
+        
+          <li>
+            <a href="/2022/10/19/PMP%20Study%20Notes_2/">PMP Study Notes| Day 2</a>
+          </li>
+        
+          <li>
+            <a href="/2022/10/18/PMP%20Study%20Notes_1/">PMP Study Notes| Day 1</a>
           </li>
         
       </ul>
