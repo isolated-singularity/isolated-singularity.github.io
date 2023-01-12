@@ -1,139 +1,86 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport"content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
-  
-  
-  <title>  Work Notes 1| Big Data Structure |   Lemon </title>
+<html lang="zh-Hans">
 
- 
-  
-    <link rel="icon" href="/images/favicon.png">
-  
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-  
-<link rel="stylesheet" href="/nayo.min.css">
- 
-<meta name="generator" content="Hexo 6.3.0"></head>  
-  <body>   
+    <!--Description-->
     
-      <header class="header-wrapper">
+        <meta name="description" content="農業大數據系統架構思路工業大數據系統架構能夠為高效管理製造數據流，有助於解決不同場景業務訴求。
+數據採集方法信息採集器可以通過紅外光（或紫外光等）讀取農作物光譜，也可以採用拍照法式獲取植物形狀信息，通過手機標準接口或無線連接方式，將採集的信息傳輸至手機APP中，由手機APP對信息進行處理。
+數據集成">
+    
 
-  <nav class="inner">
-    <div class="title">
-      <a href="/">
-        <img class="logo" src="/images/logo.png" />
-      </a>
-    </div>
+    <!--Author-->
+    
+        <meta name="author" content="April">
+    
 
-    <ul class="menu">
-      
-      
-      <li class="item">
-        <a class="link" id="menu-home" href="/">
-          <i class="iconfont icon-home" />
-        </a>
-      </li>
-      
-      
-      
-      <li class="item">
-        <a class="link" id="menu-archives" href="/archives">
-          <i class="iconfont icon-archives" />
-        </a>
-      </li>
-      
-      
-      
-      <li class="item">
-        <a class="link" id="menu-tags" href="/tags">
-          <i class="iconfont icon-tags" />
-        </a>
-      </li>
-      
-      
-      
-      <li class="item">
-        <a class="link" id="menu-about" href="/about">
-          <i class="iconfont icon-about" />
-        </a>
-      </li>
-      
-      
-      
-      <li class="item">
-        <a class="link" id="menu-search">
-          <i class="iconfont icon-search" />
-        </a>
-        </l>
+    <!-- Title -->
+    
+    <title>Work Notes 1| Big Data Structure | April</title>
 
-        
-      
-    </ul>
-  </nav>
-</header>
+    <!-- Bootstrap Core CSS -->
+    <link href="//cdn.jsdelivr.net/npm/bootstrap@3.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<header class="mobile-header-wrapper">
-  <i id="mobile-toggle" class="iconfont icon-menu mobile-toggle"></i>
-</header>   
+    <!-- Custom CSS -->
+    
+<link rel="stylesheet" href="/css/style.css">
 
-      <div class="container">       
-          
-          
-            <div class="container-inner">  
-          
 
-          <article class="post slideDownMin">
-  
-	
-<div class="header">
-		<p class="title">	
-			Work Notes 1| Big Data Structure
-		</p>
-		<div class="info">	
-			<time>
-				Oct 19, 2022
-			</time>
+    <!-- Custom Fonts -->
+    <link href="//cdn.jsdelivr.net/npm/font-awesome@4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Noto+Serif:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-			
-			
-				<i class="iconfont icon-words"></i>
-				<span class="words">1333
-				</span>
-			
-		</div>
-</div> 
-	
+    <!-- jQuery -->
+    <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="//cdn.jsdelivr.net/npm/bootstrap@3.3.6/dist/js/bootstrap.min.js"></script>
 
-    <script type="text/x-mathjax-config">
-        var post = document.getElementsByClassName("post")[0];  
-        MathJax.Hub.Config({
-            showProcessingMessages: false,
-            messageStyle: "none",    
-            tex2jax: {
-                inlineMath:  [ ["$", "$"] , ["\\(","\\)"]],
-                displayMath: [ ["$$","$$"] , ["\\[","\\]"]],
-                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code','a'],
-            },
-            "HTML-CSS": {            
-                showMathMenu: false
-            }
-        });
-        MathJax.Hub.Queue(["Typeset",MathJax.Hub,post]);
-    </script>
-    <style>.MathJax{outline:0;}</style>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<meta name="generator" content="Hexo 6.3.0"></head>
 
-    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.2/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
- 
 
-	  <div class="typo post-content ">
+<body>
 
-		
+    <!-- Content -->
+    <section class="article-container">
+    <!-- Back Home -->
+    <a class="nav-back" href="/">
+    <i class="fa fa-puzzle-piece"></i>
+</a>
 
-			
-					<h2 id="農業大數據系統架構思路"><a href="#農業大數據系統架構思路" class="headerlink" title="農業大數據系統架構思路"></a>農業大數據系統架構思路</h2><p>工業大數據系統架構能夠為高效管理製造數據流，有助於解決不同場景業務訴求。</p>
+        <!-- Page Header -->
+        <header class="intro-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <div class="post-heading">
+                            <h1>
+                                Work Notes 1| Big Data Structure
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Post Content -->
+        <article>
+            <div class="container">
+                <div class="row">
+                    <!-- Post Main Content -->
+                    <div class="post-content col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <h2 id="農業大數據系統架構思路"><a href="#農業大數據系統架構思路" class="headerlink" title="農業大數據系統架構思路"></a>農業大數據系統架構思路</h2><p>工業大數據系統架構能夠為高效管理製造數據流，有助於解決不同場景業務訴求。</p>
 <h3 id="數據採集方法"><a href="#數據採集方法" class="headerlink" title="數據採集方法"></a>數據採集方法</h3><p>信息採集器可以通過紅外光（或紫外光等）讀取農作物光譜，也可以採用拍照法式獲取植物形狀信息，通過手機標準接口或無線連接方式，將採集的信息傳輸至手機APP中，由手機APP對信息進行處理。</p>
 <h3 id="數據集成層"><a href="#數據集成層" class="headerlink" title="數據集成層"></a>數據集成層</h3><p>數據集成層能夠採集不同來源的數據，進行集中管理，為後續分析及應用提供數據儲備。主要解決數據的分佈性和異構性的問題，其前提是被集成應用必須公開數據結構，即必須公開表結構，表間關係，編碼的含義等。</p>
 <p>  <strong>數據高速緩存器是關鍵</strong><br>  對數據集成體系結構來説，關鍵是擁有一個包含有目標計劃、源－目標映射、數據獲得、分級抽取、錯誤恢復和安全性轉換的數據高速緩存器。此外，數據高速緩存器包含有預先定製的數據抽取工作，這些工作自動地位於一個企業的後端及數據倉庫之中。</p>
@@ -152,192 +99,90 @@
 <p>  根據風險級別設置安全政策。如果你只是在內網中轉換數據，也許不需要加密；但如果你需要將數據對外傳送，可能就要加以防範了。</p>
 <h3 id="数据分析层"><a href="#数据分析层" class="headerlink" title="数据分析层"></a>数据分析层</h3><p>  紅外光譜數據庫在國外的應用相對國內較為普及。如著名的薩特勒(Sadtler)數據庫、日本的 SDBS 數據庫和阿德里奇(A1der.ich)數據庫等。國外研製各种红外光譜的計算機檢索軟件和數據庫供出售或出租，平均每張光譜要 1 美元，遠非國內一般單位所能購買得起的。</p>
 <p>  所以，我國自行研製紅外光譜數據庫和紅外光譜的計算機檢索軟件是<strong>勢在必行</strong>的。</p>
-<h3 id="应用场景层"><a href="#应用场景层" class="headerlink" title="应用场景层"></a>应用场景层</h3><h3 id="運行平台"><a href="#運行平台" class="headerlink" title="運行平台"></a>運行平台</h3>  	
-					
-	  </div>     
-	  
+<h3 id="应用场景层"><a href="#应用场景层" class="headerlink" title="应用场景层"></a>应用场景层</h3><h3 id="運行平台"><a href="#運行平台" class="headerlink" title="運行平台"></a>運行平台</h3>
 
-	<div class="bottom">
-  <div class="other">
-    <div class="meta">
-      
+                            <!-- Meta -->
+                            <div class="post-meta">
+                                <hr>
+                                <br>
+                                <div class="post-tags">
+                                    
+                                        
 
-      
-      <i class="iconfont icon-tag"></i>
-      <a class="tag-none-link" href="/tags/Work/" rel="tag">Work</a>
-      
-    </div>
-
-    <div class="operate">
-      
-      <span class="text">Share</span>
-      <ul class="share">
-	   			             
-        <li class="iconfont 
-		icon-share-qq 
-		-mob-share-qq 
-		item"
-		></li>		
-   	   			             
-        <li class="iconfont 
-		icon-share-weixin 
-		-mob-share-weixin 
-		item"
-		></li>		
-   	   			             
-        <li class="iconfont 
-		icon-share-weibo 
-		-mob-share-weibo 
-		item"
-		></li>		
-   	   
-</ul>	
-
-<script id="-mob-share" 
-src="https://f1.webshare.mob.com/code/mob-share.js?appkey=21d601593a1de"></script>
-      
-    </div>
-  </div>
+<a href="/tags/Work/">#Work</a>
 
 
-  
-  <nav class="nav">
-    <div class="link">
-      
-      <a href="/2022/10/19/PMP2/" class="link-wrap">
-        <strong class="caption">older</strong>
-        
-        <span class="title">
-          PMP Notes| Day 2
-        </span>
-      </a>
-      
-    </div>
-    <div class="link">
-      
-      <a href="/2022/10/19/WorkNotes_2/" class="link-wrap">
-        <strong class="caption">newer</strong>
-        
-        <span class="title">
-          Work Notes 2| Hiring Problems
-        </span>
-      </a>
-      
-    </div>
-  </nav>
-  
-</div> 
-	
-<div class="comment">
+                                            
+                                </div>
+                                <div class="post-date">
+                                    
+                                        2022-10-19
+                                    
+                                </div>
+                            </div>
+                    </div>
 
+                    <!-- Comments -->
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <!-- Disqus Comments -->
+
+
+                    </div>
+                </div>
+            </div>
+        </article>
+</section>
+
+<!-- Image viewer-->
+
+    <!-- Custom picture view-->
+    <link href="/css/viewer.min.css" rel="stylesheet" />
+    <script
+      src="/js/viewer.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
     
-
-    <div id="comment">
-    </div>
-
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-
-    <script src='//unpkg.com/valine@v1.1.8-beta/dist/Valine.min.js'></script>
-
-    <script>
-        new Valine({
-            el: '#comment',
-            notify: false,
-            verify: false,
-            app_id: 'cFM0eCo0CQ9xmBXmHi1eltol-gzGzoHsz',
-            app_key: 'oh9tizsnvV2vNvWgqEvoNtQO',
-            path: window.location.pathname,
-            avatar: 'mm',
-            guest_info: ['nick', 'mail']
-        });
+    <script type="text/javascript">
+      // set image viewer
+      Viewer.setDefaults({
+        zoomRatio: [0.5],
+        navbar: false,
+        toolbar: false,
+        button: false,
+        title: [2, (image, imageData) => `${image.alt}`],
+        show: function() {
+          this.viewer.zoomTo(0.5);
+        }
+      });
+      var imageList = document.getElementsByTagName("img");
+      Array.prototype.forEach.call(imageList, element => {
+        var viewer = new Viewer(element);
+      });
     </script>
-    
-</div>	
-</article>
 
-          </div> 
-      </div>            
     
-        <i id="toTop" class="iconfont icon-backtotop"></i>
 
+<!-- TOC -->
+
+    <aside id="article-toc" role="navigation" class="fixed">
+        <div id="article-toc-inner">
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BE%B2%E6%A5%AD%E5%A4%A7%E6%95%B8%E6%93%9A%E7%B3%BB%E7%B5%B1%E6%9E%B6%E6%A7%8B%E6%80%9D%E8%B7%AF"><span class="toc-text">農業大數據系統架構思路</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B8%E6%93%9A%E6%8E%A1%E9%9B%86%E6%96%B9%E6%B3%95"><span class="toc-text">數據採集方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B8%E6%93%9A%E9%9B%86%E6%88%90%E5%B1%A4"><span class="toc-text">數據集成層</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%B1%82"><span class="toc-text">数据分析层</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%E5%B1%82"><span class="toc-text">应用场景层</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%81%8B%E8%A1%8C%E5%B9%B3%E5%8F%B0"><span class="toc-text">運行平台</span></a></li></ol></li></ol>
+        </div>
+    </aside>
+
+    <!-- Scripts -->
+    <script type="text/javascript">
+    console.log("© zchen9 🙋 2015-" + new Date().getFullYear());
+</script>
   
-    <div class="none" id="search">
-    <div class="header">
-        <input type="text" 
-        placeholder="Typing Something here." 
-        id="search-input" 
-        class="input" />
-        
-        <i id="search-cancel" class="iconfont icon-cancel"></i>
-    </div>
-
-    <div id="search-result" class="result"></div>
-</div>
-     <div class="mobile-menu">      
-
-      
-      <img class="mobile-menu-icon" src= "/images/favicon.png" >  
-      
-
-         
-            
-
-            <a class="mobile-menu-link" href="/">Home
-            </a>
-            
-         
-            
-
-            <a class="mobile-menu-link" href="/archives">Archives
-            </a>
-            
-         
-            
-
-            <a class="mobile-menu-link" href="/tags">Tags
-            </a>
-            
-         
-            
-
-            <a class="mobile-menu-link" href="/about">About
-            </a>
-            
-         
-                          
-
-            <a class="mobile-menu-link mobile-menu-search" href="#">Search </a>                 
-            
-         
-      
-</div>
-        
+    <!-- Google Analytics -->
     
 
-
-
-     
-    
-
-
-<footer class="footer">
-	<div class="inner">
-		<div class="copyright">
-			&copy;
-			
-			2019 -
-			
-			2023
-			Lemon
-
-			<br/>
-			By <a href="https://hexo.io" target="_blank">Hexo</a> Theme <a href="https://github.com/Lemonreds/hexo-theme-Nayo" target="_blank">Nayo</a>
-		</div>
-	</div>
-</footer>   
+    <!-- Service Worker -->
+    <!-- if using service worker -->
 
     
-<script src="/nayo.bundle.js"></script>
-           
-  </body>        
+</body>
+
 </html>
