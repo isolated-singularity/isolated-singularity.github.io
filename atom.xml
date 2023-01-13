@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-01-13T07:13:19.058Z</updated>
+  <updated>2023-01-13T08:18:01.112Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2023/01/13/WORK06/"/>
     <id>http://example.com/2023/01/13/WORK06/</id>
     <published>2023-01-13T09:39:25.000Z</published>
-    <updated>2023-01-13T07:13:19.058Z</updated>
+    <updated>2023-01-13T08:18:01.112Z</updated>
     
     <content type="html"><![CDATA[<p>Work Notes 06 | Product Management(Draft)<br>项目申报相关(施工中 挖坑先)</p><span id="more"></span><p>确定合作方向&#x2F;整理项目可行性<br>项目本身介绍<br>一份优质的商业计划书通常包含六大要素，分别是产品／业务、商业模式、竞品分析、团队／行业情况、运营／财务数据、融资规划。</p>]]></content>
     
@@ -31,8 +31,6 @@
     
     
     <category term="WORK" scheme="http://example.com/categories/WORK/"/>
-    
-    <category term="PROJECT MANAGEMENT" scheme="http://example.com/categories/WORK/PROJECT-MANAGEMENT/"/>
     
     
     <category term="WORK" scheme="http://example.com/tags/WORK/"/>
@@ -46,7 +44,7 @@
     <link href="http://example.com/2023/01/07/WORK05/"/>
     <id>http://example.com/2023/01/07/WORK05/</id>
     <published>2023-01-07T03:22:25.000Z</published>
-    <updated>2023-01-13T07:13:34.633Z</updated>
+    <updated>2023-01-13T08:17:54.025Z</updated>
     
     <content type="html"><![CDATA[<p>Work Notes 05 | Product Management(Draft)<br>硬件产品规划</p><span id="more"></span><h1 id="硬件产品经理方法论-学习笔记"><a href="#硬件产品经理方法论-学习笔记" class="headerlink" title="硬件产品经理方法论 学习笔记"></a>硬件产品经理方法论 学习笔记</h1><h2 id="理论摘录"><a href="#理论摘录" class="headerlink" title="理论摘录"></a>理论摘录</h2><ol><li><p>产品和产品经理</p><ul><li>产品是用户需求解决方案的载体</li><li>产品是收益和代价的权衡：产品竞争力（或“产品力”）&#x3D;用户收益÷用户代价</li><li>产品是企业和用户之间的沟通媒介</li></ul></li></ol><blockquote><p><strong>「用户购买产品，并不是为了获得产品本身，而是为了获得产品给用户带来的改变或价值，换言之，用户购买某个产品，是希望通过该产品提供的价值实现从某一个“状态”到另外一个“状态”的切换。这个“状态切换”的意愿，就是“用户需求”。」</strong></p></blockquote><p>   产品经理的核心职能是产品规划和产品定义。</p><ol start="2"><li><p>产品规划</p><p>2.1 市场分析</p><p> 市场容量：在一定时间里市场对某种产品或劳务的需求总量。</p><p>2.2 用户研究&#x2F;用户需求</p><p> KANO模型将需求分成了“必需型”需求、“期望型”需求、“兴奋型”需求、“无差异”需求和“反向型”需求五种。</p><p> “必需型需求”是一定要满足的，“期望型需求”可结合产品的约束条件（如ID、成本、资源等）尽可能满足，“兴奋型需求”则不一定要满足（尤其是在开发新品类或者企业处于初期发展阶段的时候）。<br>2.3 竞品分析</p><p> 如果产品还没有上市，可以在电商平台上搜索同类竞品，通过差评分析总结出竞品在哪方面做的不够好，自己的产品如何避免同类问题，是否有机会超越竞品。也可以分析好评，关注用户最在意的部分。</p></li><li><p>产品定义(Product Requirement Document&#x2F;Market Requirement Document)</p><p>3.1 5W2H</p><p> MRD: Why, where, who<br> PRD: What, How, When, How much<br> 量产品&#x2F;利产品&#x2F;名产品&#x2F;周转产品</p><p>3.2 产品设计</p><ul><li><p>示能：通过一些深入人心的概念或者元素，告诉用户应该怎么做，让用户能够在零学习成本的情况下，知道产品想传达的意思。</p></li><li><p>约束：除了告诉用户“怎么用”之外，还要告诉用户“不能怎么用”，来避免一些错误或者危险操作。因为产品沟通是没有语言、纯文字的无声沟通，所以需要通过一些“约束条件”来实现。</p></li><li><p>映射：要让产品的每个输入性操作，与其对应的结果之间的映射关系，符合人们约定俗成的观念。</p></li><li><p>反馈：做到事事有回音是非常重要的，就像我们在工作中一样，如果能做到“凡事有交代，件件有着落，事事有回音”，那么你在别人心目中就会留下一个靠谱的印象，产品也是类似的。没有反馈，就好像你和别人说了一句话，别人不理你一样，感觉是很难受的。所谓“反馈”，可以通过“五感”来进行传递。“五感”即人的“眼耳手鼻口”五种感官所产生的感觉，包括了视觉、听觉、触觉、嗅觉和味觉。如果五感俱全，那么大概率会是一个好产品。</p></li></ul></li><li><p>产品上市</p><p>产品在顺利批量生产之后，要让用户心甘情愿地付费购买，除了产品本身要足够优秀之外，还得有“产品营销”的加持。</p><p>所谓“营销”，就是企业发现或挖掘消费者需求，并让消费者了解企业自身生产的能够满足该需求的产品，进而让消费者购买该产品的过程。</p><p>营销的过程中包含四个要素，即满足需求的“产品”，让用户购买的“价格”，方便用户购买的“渠道”，以及通过各种方式让用户了解产品的“传播”。这四个关键要素分别对应了“产品”(Product)、“价格”(Price)、“渠道”(Place)、“推广”(Promotion)，因为这4个单词的首字母都为“P”，因此合称为营销上的“4P”，即营销学里经典的“4P理论”。</p><p>在做产品定义的时候，把自己带入用户的真实场景中去考虑问题；在做产品宣传的时候，去强调用户价值而非产品参数。</p></li></ol><h2 id="详细开发流程-电路和软件迭代"><a href="#详细开发流程-电路和软件迭代" class="headerlink" title="详细开发流程 电路和软件迭代"></a>详细开发流程 电路和软件迭代</h2><blockquote><p>软件迭代和更新相对容易是一柄双刃剑。一方面，相比于直接更改硬件功能，只要通过重写几行代码或者安装一个应用就能改变产品功能，这真的很了不起。另一方面，如果不关注系统复杂性，易于实施的软件迭代可能会把我们引入歧途。</p></blockquote><ul><li>版本控制</li><li>测试驱动开发</li><li>持续集成</li></ul><h2 id="笔记-PPT素材储备-x2F-搜索技巧等"><a href="#笔记-PPT素材储备-x2F-搜索技巧等" class="headerlink" title="笔记(PPT素材储备&#x2F;搜索技巧等)"></a>笔记(PPT素材储备&#x2F;搜索技巧等)</h2><ol><li><p>市场分析&#x2F;市场调研</p><p>(1)研究报告平台：中研普华、发现报告、艾瑞网、酷传、新榜、易观、企鹅智酷等；</p><p>(2)数据公司平台：中怡康、第一财经、奥维云网、决策狗、数据通、奥维去网、生意参谋、数据雷达、魔镜等；</p><p>(3)filetype:pdf+keyword</p></li><li><p>提取用户关键词，使用词云：Wordle, wordltout, Tagxedo 等进行词频分析（做为PPT素材储备）<br> <a href="https://worditout.com/word-cloud/create">https://worditout.com/word-cloud/create</a></p></li><li><p>竞品分析</p><p>如果产品还没有上市，可以在电商平台上搜索同类竞品，通过差评分析总结出竞品在哪方面做的不够好，自己的产品如何避免同类问题，是否有机会超越竞品。也可以分析好评，关注用户最在意的部分。</p></li><li><p>PRD&#x2F;MRD与5W2H</p><p> 市场需求文档(MRD): Why, where, who<br> 产品需求文档(PRD): What, How, When, How much<br> 包括产品本身规划在内，同时也需要指明本产品所属类型（量产品&#x2F;利产品&#x2F;名产品&#x2F;周转产品），以便做出相应的预案。</p></li><li><p>消费型电子产品和研发概念产品差异</p></li></ol>]]></content>
     
@@ -56,8 +54,6 @@
     
     
     <category term="WORK" scheme="http://example.com/categories/WORK/"/>
-    
-    <category term="PRODUCT MANAGEMENT" scheme="http://example.com/categories/WORK/PRODUCT-MANAGEMENT/"/>
     
     
     <category term="WORK" scheme="http://example.com/tags/WORK/"/>
@@ -71,7 +67,7 @@
     <link href="http://example.com/2022/11/04/PMP03/"/>
     <id>http://example.com/2022/11/04/PMP03/</id>
     <published>2022-11-04T09:19:25.000Z</published>
-    <updated>2023-01-13T07:11:46.705Z</updated>
+    <updated>2023-01-13T08:17:37.628Z</updated>
     
     <content type="html"><![CDATA[<p>PMP Course 03 | Exercise<br>Mock Question and Answer Explanation</p><span id="more"></span><p>##Activity 1-1</p><p>##Building a Team</p><p>###Scenario</p><p>You are the newly assigned project manager in charge of a major software migration, which will require the updating of more than 7,000 laptops across employees in five states. Due to unique circumstances regarding this particular migration, a technician will need to visit each machine, configure settings, download and install updates, and run a series of validation exercises to confirm a successful migration. One of the first things you’ll need to do is identify the team members.</p><p>###1. Brainstorm the key skills that you will want in the members of this team.</p><p>A: Answers will vary, but key skills might include familiarity with the software to be migrated, experience migrating software solutions, customer service skills, the ability to create and execute a playbook to carry out a consistent process, the ability to maintain records and document actions, and troubleshooting skills.</p><p>###2. You want to be able to validate that a proposed team member has the key skills you are looking for. What types of techniques might you be able to use to assess whether the team member would be a good fit?</p><p>A: Answers will vary, but can include any number of pre-assessment tools, including attitudinal surveys, specific assessments, structured interviews, ability tests, and focus groups.</p><p>###3. You wish to establish a resource schedule for the project. What types of information should you include?</p><p>A: Answers could include how resources will be identified and acquired; the roles and responsibilities; the needed competencies; organization charts; training strategies and requirements; team development methods to be used; and resource controls for the management of physical resources to support the team. Also, project team resource management, including the guidance on the lifecycle of the team resources—how they are defined, staffed, managed, and eventually released. And, finally a recognition plan detailing how team members are rewarded and recognized.</p>]]></content>
     
@@ -81,10 +77,6 @@
     
     
     <category term="PMP" scheme="http://example.com/categories/PMP/"/>
-    
-    <category term="REVIEW" scheme="http://example.com/categories/PMP/REVIEW/"/>
-    
-    <category term="STUDY" scheme="http://example.com/categories/PMP/REVIEW/STUDY/"/>
     
     
     <category term="PMP" scheme="http://example.com/tags/PMP/"/>
@@ -100,7 +92,7 @@
     <link href="http://example.com/2022/11/04/WORK04/"/>
     <id>http://example.com/2022/11/04/WORK04/</id>
     <published>2022-11-04T09:18:17.000Z</published>
-    <updated>2023-01-13T07:13:04.675Z</updated>
+    <updated>2023-01-13T08:17:48.178Z</updated>
     
     <content type="html"><![CDATA[<p>Work Notes 04 | Project Management<br>创新项目管理总结</p><span id="more"></span><h3 id="创新项目管理经验总结-01"><a href="#创新项目管理经验总结-01" class="headerlink" title="创新项目管理经验总结 01"></a>创新项目管理经验总结 01</h3><pre><code>No reproduction without permission. ©️ April YANG</code></pre><ol><li><p>创新项目属于敏捷项目类型，在敏捷开发过程中，很难在项目初期确定好需求，蓝图非常宽泛，项目需求非常模糊。但随着项目时间的推移，可变因素应该逐步减少，需求逐渐清晰。</p><p> 在这个过程中，项目的参与人员是非常重要的，在立项阶段的人员，最好是能够全程参与&#x2F;引导本次项目的研发，如果可变因素较大，必须提出可替代方案，项目核心人员缺失，则会导致项目进度停滞。</p></li><li><p>和实际用户交谈显得尤为重要，如果一个项目架空“Stakeholders”，很难产出实际效益。</p><p> 创新项目的最大要点在于，研究出来的新产品、新方案、新模式，究竟是否能够真实的在市场上被需求？投入产出比是创新项目最大的问题，好的idea永远不缺，但如果缺少和实际客户&#x2F;用户群体的沟通，会导致整个项目处于“闭门造车”的状态，研发出来的高精尖功能将是针对“伪需求”的答案。</p><p> 譬如光谱集成设备研发公司可以靠改装光谱仪，研发出一个壁画年代鉴定仪器，对于部分考古学科研人员来说，确实是有应用空间，但是实际的市场需求量极小，花费多年研发出来的仪器在全球范围内或许都只能卖出1台甚至0台，没有几家大学、博物馆能够负担得起如此昂贵的设备费用，此类需求即是“伪需求”，我们可以假象如果考古学家有此设备将会非常方便，但他们实际使用又如何？此类项目研发建议不要投入生产，而是转为产品概念推广，如果有切实稳定需求再投产。    </p><p> No reproduction without permission. ©️ April YANG</p><p> 反之亦然，即使是传统项目中的拓展研发，整体用户需求其实相对固定，但不同学识背景、不同研究领域的人在讨论会议中的思想碰撞也会产出不一样的结果，必须要把握好和人交流的契机，说服他们按照约定的、切实际的项目技术路线实行。</p></li><li><p>并不是所有的创新项目都能实际产出价值，有很多方向需要去探索，但不一定有现实作用，用户的需求非常复杂，需要考虑使用社会学技巧收集用户需求。</p><ul><li>召开需求会议，与头部客户进行沟通；</li><li>撰写需求文档&#x2F;PPT，规划项目甘特图；</li><li>将解决方案返回给客户，聆听客户意见；</li><li>项目获批后执行。</li></ul></li><li><p>市场调研及营销策略方面需要加强学习。</p><p> 确定BOTTOM UP的市场策略后，要切身实地从业务角度去思考，怎样的市场计划以及投入可以实现公司的业务目标。<br> 如果公司的战略方向是发展中小客户的覆盖率，推广SaaS类产品，那么营销计划应该是围绕这个目标展开，比如有新品巡展、合作伙伴活动、SEM投放等。<br> 在种子客户&#x2F;社群&#x2F;自媒体平台&#x2F;客户服务方面花时间。</p><p> No reproduction without permission. ©️ April YANG</p></li></ol>]]></content>
     
@@ -110,8 +102,6 @@
     
     
     <category term="WORK" scheme="http://example.com/categories/WORK/"/>
-    
-    <category term="PROJECT MANAGEMENT" scheme="http://example.com/categories/WORK/PROJECT-MANAGEMENT/"/>
     
     
     <category term="WORK" scheme="http://example.com/tags/WORK/"/>
@@ -146,7 +136,7 @@
     <link href="http://example.com/2022/10/19/WORK02/"/>
     <id>http://example.com/2022/10/19/WORK02/</id>
     <published>2022-10-19T08:15:00.000Z</published>
-    <updated>2023-01-13T07:12:28.288Z</updated>
+    <updated>2023-01-13T08:17:28.152Z</updated>
     
     <content type="html"><![CDATA[<p>Work Notes 02 | Hiring Problems<br>項目需求: 數據工程師&#x2F;算法工程師<br>面試問題</p><span id="more"></span><h2 id="面試問題"><a href="#面試問題" class="headerlink" title="面試問題"></a>面試問題</h2><h3 id="通用題"><a href="#通用題" class="headerlink" title="通用題"></a>通用題</h3><ol><li><p>详细讲一下自己的做的项目&#x2F;paper中的算法，你負責了哪部分的工作？</p></li><li><p>開發一個農業大數據系統架構的一些簡單思路。</p></li><li><p>如何判斷一個算法是否適用於我們的項目？如果要拓展學習新的算法你會從哪裡著手？</p><ul><li>阅读和项目积累</li></ul></li></ol><h3 id="軟件工程師-JAVA"><a href="#軟件工程師-JAVA" class="headerlink" title="軟件工程師(JAVA)"></a>軟件工程師(JAVA)</h3><ol><li><p>列举JAVA语言的主要特点：</p><ul><li><p>跨平台性：一个应用可以不经过修改直接运行到不同的平台上。</p></li><li><p>面向对象：JAVA语言是一门面向对面的语言，可以使用对象的属性和行为，可以使用面向对象的思想进行分析设计，并实现整个应用。</p></li><li><p>解释执行JAVA应用时，JAVA虚拟机中的解释器将解释类文件，生成符合当前平台的字节码。</p></li><li><p>自动回收：JAVA应用中的垃圾回收是自动进行的，JVM中的后台线程将监视内存中数据的使用，当内存中的数据不再被引用时，将被作为垃圾回收，而不需要程序员动手回收。</p></li></ul></li><li><p>请解释Java语言的跨平台特性。</p><p>Java的跨平台特性也被称为可移植性、平台无关性，或者一次编写处处运行。他的意思就是如果用Java语言编写一个应用，那么就可以在不同平台上运行，而不需要为不同平台单独运行开发。之所以能实现跨平台的特性。主要得益于Java虚拟机（JVM），JVM解释器在运行Java应用时根据当前平台进行解释，解释成符合当前平台规范的机器码，所以可以实现同样的应用在不同平台上都能运行。</p></li><li><p>同步和异步有何异同，在什么情况下分别使用他们？举例说明。</p><p>如果数据将在线程间共享。例如正在写的数据以后可能被另一个线程读到，或者正在读的数据可能已经被另一个线程写过了，那么这些数据就是共享数据，必须进行同步存取。当应用程序在对象上调用了一个需要花费很长时间来执行的方法，并且不希望让程序等待方法的返回时，就应该使用异步编程，在很多情况下采用异步途径往往更有效率。</p></li></ol><h3 id="算法工程師-Python"><a href="#算法工程師-Python" class="headerlink" title="算法工程師(Python)"></a>算法工程師(Python)</h3><ol><li><p>如果一個模型训练集准确率还可以，但测试集的准确率比训练集的差了很多，說明什麼（過擬合）？應該如何改進？</p><ul><li><p>简化模型。就是这包括了减少特征数量，可以降低树的深度、采用剪枝等；</p></li><li><p>增加训练数据，采用数据增强的方法，比如人工合成训练数据等；</p></li><li><p>早停，当验证集上的误差没有进一步改善，训练提前终止；</p></li><li><p>正则化，常用 L1 或者 L2 正则化。</p></li><li><p>集成学习方法，训练多个模型，并以每个模型的平均输出作为结果，降低单一模型的过拟合风险，常用方法有 bagging、boosting、dropout(深度学习中的方法)等；</p></li><li><p>噪声注入：包括输入噪声注入、输出噪声注入、权重噪声注入。将噪声分别注入到输入&#x2F;输出&#x2F;权重参数中，虽然噪声可能是模型过拟合的一个原因，但第一可以通过交叉验证来避免；第二就是没有噪声的完美数据也是很有可能发生过拟合；第三可以选择在特征、权值参数加入噪声，而非直接在数据加入噪声。</p></li></ul></li><li><p>光譜數據預處理的方法？</p><p>预处理主要用于调整每个测量变量的可变性及其关系，使其更好地符合数据分析的目标，但预处理方法及其组合依赖于数据的不同特征和数据分析的目标，特别是针对高维测量数据分析。</p><ul><li><p>噪声干扰: 降噪&#x2F;去噪 平滑去噪(小波变换&#x2F;SG方法)</p></li><li><p>基线漂移: 去趋势, 基线校正</p></li><li><p>光谱波长与吸光度偏差：参数时间对齐和相关优化对齐</p></li><li><p>幅值漂移, 量纲差: 标准化、放缩、变换。</p></li></ul></li></ol>]]></content>
     
@@ -160,6 +150,8 @@
     
     <category term="WORK" scheme="http://example.com/tags/WORK/"/>
     
+    <category term="HR MANAGEMENT" scheme="http://example.com/tags/HR-MANAGEMENT/"/>
+    
   </entry>
   
   <entry>
@@ -167,7 +159,7 @@
     <link href="http://example.com/2022/10/19/PMP02/"/>
     <id>http://example.com/2022/10/19/PMP02/</id>
     <published>2022-10-19T06:25:00.000Z</published>
-    <updated>2023-01-13T07:11:07.129Z</updated>
+    <updated>2023-01-13T08:16:57.414Z</updated>
     
     <content type="html"><![CDATA[<p>PMP Course 02| Study Notes<br>The Importance of (Traditional) Project Management</p><span id="more"></span><h3 id="12-Project-management-principles"><a href="#12-Project-management-principles" class="headerlink" title="12 Project management principles"></a>12 Project management principles</h3><p>▶ Be a diligent, respectful, and caring steward (see Section 3.1).<br>▶ Create a collaborative project team environment (see Section 3.2).<br>▶ Effectively engage with stakeholders (see Section 3.3).<br>▶ Focus on value (see Section 3.4).<br>▶ Recognize, evaluate, and respond to system interactions (see Section 3.5).<br>▶ Demonstrate leadership behaviors (see Section 3.6).<br>▶ Tailor based on context (see Section 3.7).<br>▶ Build quality into processes and deliverables (see Section 3.8).<br>▶ Navigate complexity (see Section 3.9).<br>▶ Optimize risk responses (see Section 3.10).<br>▶ Embrace adaptability and resiliency (see Section 3.11).<br>▶ Enable change to achieve the envisioned future state (see Section 3.12).</p><h3 id="8-Project-Performance-Domains"><a href="#8-Project-Performance-Domains" class="headerlink" title="8 Project Performance Domains"></a>8 Project Performance Domains</h3><p>There are eight project performance domains:</p><p>▶ Stakeholders,<br>▶ Team,<br>▶ Development Approach and Life Cycle,<br>▶ Planning,<br>▶ Project Work,<br>▶ Delivery,<br>▶ Measurement, and<br>▶ Uncertainty.</p>]]></content>
     
@@ -177,10 +169,6 @@
     
     
     <category term="PMP" scheme="http://example.com/categories/PMP/"/>
-    
-    <category term="REVIEW" scheme="http://example.com/categories/PMP/REVIEW/"/>
-    
-    <category term="STUDY" scheme="http://example.com/categories/PMP/REVIEW/STUDY/"/>
     
     
     <category term="PMP" scheme="http://example.com/tags/PMP/"/>
@@ -196,7 +184,7 @@
     <link href="http://example.com/2022/10/18/WORK01/"/>
     <id>http://example.com/2022/10/18/WORK01/</id>
     <published>2022-10-18T08:15:00.000Z</published>
-    <updated>2023-01-13T07:12:15.096Z</updated>
+    <updated>2023-01-13T08:17:12.779Z</updated>
     
     <content type="html"><![CDATA[<p>Work Notes 01 | Big Data Structure<br>大數據是工業4.0的核心驅動，工業大數據系統架構能夠為高效管理製造數據流，有助於解決不同場景業務訴求。</p><span id="more"></span><h2 id="農業大數據系統架構思路"><a href="#農業大數據系統架構思路" class="headerlink" title="農業大數據系統架構思路"></a>農業大數據系統架構思路</h2><p>工業大數據系統架構能夠為高效管理製造數據流，有助於解決不同場景業務訴求。</p><h3 id="數據採集方法"><a href="#數據採集方法" class="headerlink" title="數據採集方法"></a>數據採集方法</h3><p>信息採集器可以通過紅外光（或紫外光等）讀取農作物光譜，也可以採用拍照法式獲取植物形狀信息，通過手機標準接口或無線連接方式，將採集的信息傳輸至手機APP中，由手機APP對信息進行處理。</p><h3 id="數據集成層"><a href="#數據集成層" class="headerlink" title="數據集成層"></a>數據集成層</h3><p>數據集成層能夠採集不同來源的數據，進行集中管理，為後續分析及應用提供數據儲備。主要解決數據的分佈性和異構性的問題，其前提是被集成應用必須公開數據結構，即必須公開表結構，表間關係，編碼的含義等。</p><p><strong>數據高速緩存器是關鍵</strong><br>  對數據集成體系結構來説，關鍵是擁有一個包含有目標計劃、源－目標映射、數據獲得、分級抽取、錯誤恢復和安全性轉換的數據高速緩存器。此外，數據高速緩存器包含有預先定製的數據抽取工作，這些工作自動地位於一個企業的後端及數據倉庫之中。</p><p><strong>關鍵步驟：</strong> <a href="https://baike.baidu.hk/item/%E6%95%B8%E6%93%9A%E9%9B%86%E6%88%90/8263271">https://baike.baidu.hk/item/%E6%95%B8%E6%93%9A%E9%9B%86%E6%88%90/8263271</a></p><ol><li><p>與軟件廠商合作<br>作為企業，讓廠商正確理解你的業務需求對自己有益無害。因為只有這樣，廠商高管才能準確識別並集成所有你需要的數據點。</p></li><li><p>定義劃分集成優先級<br>列出所有所需的數據集成任務，安排好部署計劃。你的目標應該是在部署或正式投入使用階段之前完成所有的數據集成活動，並界定增長數據的更新頻率。除此之外，還要本着成本時間的節約，根據數據集成解決方案對其效益進行估測。</p></li><li><p>選擇合適的集成界面<br>數據集成解決方案提供了兩種數據界面：單向和雙向。你需要知道應該應用哪種。</p></li><li><p>選擇一款正確的接口媒體，最簡單的不一定最好<br>選擇接口媒體一定要考慮未來需求和升級問題。數據集成有很多種方法——XML、逗號限定、電子表格、直接數據庫連接等等；然而，最簡單的方法不一定最適合你的企業，應該從多方面進行考慮，如可擴展性需求、數據容量和預算開銷等。多年來，基於文本的集成一直很盛行，但是有很多企業都開始使用XML和直接數據庫連接。</p></li><li><p>監控流程，設置多個檢測點<br>對集成數據進行微調。對我們的B2B平台來説，數據集成在每天結束的時候都會進行，而只有增長的數據會被傳送到服務器上。Hypercity的檢測點從源系統開始，分佈於各個級別。一些涉及銷售數量和零售價格的問題在這些檢測點中提出。B2B平台的提取上載階段構成了第二個檢測點，問題的答案會在這裏出現。自動化系統會檢測輸入數據的準確性。為了避免錯誤的出現，相關用户會收到提示郵件，以確認全天的數據是不是正確上載、是不是需要糾錯措施。</p></li><li><p>保證數據的安全性<br>根據風險級別設置安全政策。如果你只是在內網中轉換數據，也許不需要加密；但如果你需要將數據對外傳送，可能就要加以防範了。</p></li></ol><h3 id="数据分析层"><a href="#数据分析层" class="headerlink" title="数据分析层"></a>数据分析层</h3><p>  紅外光譜數據庫在國外的應用相對國內較為普及。如著名的薩特勒(Sadtler)數據庫、日本的 SDBS 數據庫和阿德里奇(A1der.ich)數據庫等。國外研製各种红外光譜的計算機檢索軟件和數據庫供出售或出租，平均每張光譜要 1 美元，遠非國內一般單位所能購買得起的。</p><p>  所以，我國自行研製紅外光譜數據庫和紅外光譜的計算機檢索軟件是<strong>勢在必行</strong>的。</p><h3 id="应用场景层"><a href="#应用场景层" class="headerlink" title="应用场景层"></a>应用场景层</h3><h3 id="運行平台"><a href="#運行平台" class="headerlink" title="運行平台"></a>運行平台</h3>]]></content>
     
@@ -210,6 +198,8 @@
     
     <category term="WORK" scheme="http://example.com/tags/WORK/"/>
     
+    <category term="BIG DATA" scheme="http://example.com/tags/BIG-DATA/"/>
+    
   </entry>
   
   <entry>
@@ -217,7 +207,7 @@
     <link href="http://example.com/2022/10/18/PMP01/"/>
     <id>http://example.com/2022/10/18/PMP01/</id>
     <published>2022-10-18T02:46:56.000Z</published>
-    <updated>2023-01-13T07:09:48.586Z</updated>
+    <updated>2023-01-13T08:16:51.316Z</updated>
     
     <content type="html"><![CDATA[<p>PMP Course 01| Study Notes<br>Common Vocabulary In Project Management</p><span id="more"></span><h3 id="Project-Charter"><a href="#Project-Charter" class="headerlink" title="Project Charter"></a>Project Charter</h3><p>Project Charter provides the high-level project description and product characteristics. It authorizes the project and provides the Project Manager the authority to assign organization resources.</p><p>The Project sponsor is in the develop project charter process in the project integration management and is using the statement of work to understand the product requirements and descriptions. The output of this process is a project charter, which initiates the project once approved formally. A project charter documents high-level project descriptions and business needs of the project, along with a current understanding of the customer’s needs, risks, name of the sponsor, and so on.</p><p>The charter is important because it formally authorizes a project. The Project Manager must do whatever possible to get the charter issued.</p><h3 id="Portfolio-Manager"><a href="#Portfolio-Manager" class="headerlink" title="Portfolio Manager"></a>Portfolio Manager</h3><p>Portfolio refers to a collection of projects or programs grouped together to facilitate effective management to meet strategic business objectives, and the person managing it is called a Portfolio Manager. Portfolio management describes methods for analyzing and collectively managing a group of current or proposed projects based on numerous key characteristics like business objectives, technical strategy, goals, etc.</p><h3 id="Integrator"><a href="#Integrator" class="headerlink" title="Integrator"></a>Integrator</h3><p>The role of a Project Manager is the combination of all the options, but the one that is most critical to the project’s success is that of an Integrator. As described in the question, a Project Manager is expected to integrate the project management processes and coordinate the process phases through the project management cycle to ensure that all areas of the project come together to successfully deliver the project. Integration involves pulling together all aspects of project management including scope, cost, schedule, quality, and communication in addition to working with other departments such as Legal, Human Resources, Training, Contract Administration, and Information Technology.</p><h3 id="Prodcut-Scope"><a href="#Prodcut-Scope" class="headerlink" title="Prodcut Scope"></a>Prodcut Scope</h3><p>To differentiate project scope from product scope read through the definition of each. Product scope: the features and functions that characterize a product, service, or result. Project scope: the work that needs to be accomplished to deliver a product, service, or result with the specified features and functions. The product scope describes the function or service that will exist as a result of your project. The project scope, on the other hand, describes all the work to create the product scope. It includes only the required work to complete the project deliverable. Note: The completion of project scope is measured against the project management plan, the project scope statement and its associated Work Breakdown Structure (WBS), WBS dictionary, and scope baseline. Completion of product scope is measured against product features or requirements.</p>]]></content>
     
@@ -227,10 +217,6 @@
     
     
     <category term="PMP" scheme="http://example.com/categories/PMP/"/>
-    
-    <category term="REVIEW" scheme="http://example.com/categories/PMP/REVIEW/"/>
-    
-    <category term="STUDY" scheme="http://example.com/categories/PMP/REVIEW/STUDY/"/>
     
     
     <category term="PMP" scheme="http://example.com/tags/PMP/"/>
