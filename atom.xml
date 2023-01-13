@@ -67,7 +67,7 @@
     <link href="http://example.com/2022/11/04/PMP03/"/>
     <id>http://example.com/2022/11/04/PMP03/</id>
     <published>2022-11-04T09:19:25.000Z</published>
-    <updated>2023-01-13T08:25:38.029Z</updated>
+    <updated>2023-01-13T08:39:10.072Z</updated>
     
     <content type="html"><![CDATA[<p>PMP Course 03 | Exercise<br>Mock Question and Answer Explanation</p><span id="more"></span><p>##Activity 1-1</p><p>##Building a Team</p><p>###Scenario</p><p>You are the newly assigned project manager in charge of a major software migration, which will require the updating of more than 7,000 laptops across employees in five states. Due to unique circumstances regarding this particular migration, a technician will need to visit each machine, configure settings, download and install updates, and run a series of validation exercises to confirm a successful migration. One of the first things you’ll need to do is identify the team members.</p><p>###1. Brainstorm the key skills that you will want in the members of this team.</p><p>A: Answers will vary, but key skills might include familiarity with the software to be migrated, experience migrating software solutions, customer service skills, the ability to create and execute a playbook to carry out a consistent process, the ability to maintain records and document actions, and troubleshooting skills.</p><p>###2. You want to be able to validate that a proposed team member has the key skills you are looking for. What types of techniques might you be able to use to assess whether the team member would be a good fit?</p><p>A: Answers will vary, but can include any number of pre-assessment tools, including attitudinal surveys, specific assessments, structured interviews, ability tests, and focus groups.</p><p>###3. You wish to establish a resource schedule for the project. What types of information should you include?</p><p>A: Answers could include how resources will be identified and acquired; the roles and responsibilities; the needed competencies; organization charts; training strategies and requirements; team development methods to be used; and resource controls for the management of physical resources to support the team. Also, project team resource management, including the guidance on the lifecycle of the team resources—how they are defined, staffed, managed, and eventually released. And, finally a recognition plan detailing how team members are rewarded and recognized.</p>]]></content>
     
@@ -81,9 +81,7 @@
     
     <category term="PMP" scheme="http://example.com/tags/PMP/"/>
     
-    <category term="STUDY" scheme="http://example.com/tags/STUDY/"/>
-    
-    <category term="EXERCISE" scheme="http://example.com/tags/EXERCISE/"/>
+    <category term="MOCK QUESTION" scheme="http://example.com/tags/MOCK-QUESTION/"/>
     
   </entry>
   
@@ -92,9 +90,9 @@
     <link href="http://example.com/2022/11/04/WORK04/"/>
     <id>http://example.com/2022/11/04/WORK04/</id>
     <published>2022-11-04T09:18:17.000Z</published>
-    <updated>2023-01-13T08:17:48.178Z</updated>
+    <updated>2023-01-13T08:47:16.913Z</updated>
     
-    <content type="html"><![CDATA[<p>Work Notes 04 | Project Management<br>创新项目管理总结</p><span id="more"></span><h3 id="创新项目管理经验总结-01"><a href="#创新项目管理经验总结-01" class="headerlink" title="创新项目管理经验总结 01"></a>创新项目管理经验总结 01</h3><pre><code>No reproduction without permission. ©️ April YANG</code></pre><ol><li><p>创新项目属于敏捷项目类型，在敏捷开发过程中，很难在项目初期确定好需求，蓝图非常宽泛，项目需求非常模糊。但随着项目时间的推移，可变因素应该逐步减少，需求逐渐清晰。</p><p> 在这个过程中，项目的参与人员是非常重要的，在立项阶段的人员，最好是能够全程参与&#x2F;引导本次项目的研发，如果可变因素较大，必须提出可替代方案，项目核心人员缺失，则会导致项目进度停滞。</p></li><li><p>和实际用户交谈显得尤为重要，如果一个项目架空“Stakeholders”，很难产出实际效益。</p><p> 创新项目的最大要点在于，研究出来的新产品、新方案、新模式，究竟是否能够真实的在市场上被需求？投入产出比是创新项目最大的问题，好的idea永远不缺，但如果缺少和实际客户&#x2F;用户群体的沟通，会导致整个项目处于“闭门造车”的状态，研发出来的高精尖功能将是针对“伪需求”的答案。</p><p> 譬如光谱集成设备研发公司可以靠改装光谱仪，研发出一个壁画年代鉴定仪器，对于部分考古学科研人员来说，确实是有应用空间，但是实际的市场需求量极小，花费多年研发出来的仪器在全球范围内或许都只能卖出1台甚至0台，没有几家大学、博物馆能够负担得起如此昂贵的设备费用，此类需求即是“伪需求”，我们可以假象如果考古学家有此设备将会非常方便，但他们实际使用又如何？此类项目研发建议不要投入生产，而是转为产品概念推广，如果有切实稳定需求再投产。    </p><p> No reproduction without permission. ©️ April YANG</p><p> 反之亦然，即使是传统项目中的拓展研发，整体用户需求其实相对固定，但不同学识背景、不同研究领域的人在讨论会议中的思想碰撞也会产出不一样的结果，必须要把握好和人交流的契机，说服他们按照约定的、切实际的项目技术路线实行。</p></li><li><p>并不是所有的创新项目都能实际产出价值，有很多方向需要去探索，但不一定有现实作用，用户的需求非常复杂，需要考虑使用社会学技巧收集用户需求。</p><ul><li>召开需求会议，与头部客户进行沟通；</li><li>撰写需求文档&#x2F;PPT，规划项目甘特图；</li><li>将解决方案返回给客户，聆听客户意见；</li><li>项目获批后执行。</li></ul></li><li><p>市场调研及营销策略方面需要加强学习。</p><p> 确定BOTTOM UP的市场策略后，要切身实地从业务角度去思考，怎样的市场计划以及投入可以实现公司的业务目标。<br> 如果公司的战略方向是发展中小客户的覆盖率，推广SaaS类产品，那么营销计划应该是围绕这个目标展开，比如有新品巡展、合作伙伴活动、SEM投放等。<br> 在种子客户&#x2F;社群&#x2F;自媒体平台&#x2F;客户服务方面花时间。</p><p> No reproduction without permission. ©️ April YANG</p></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>Work Notes 04 | Project Management<br>创新项目管理总结</p><span id="more"></span><h2 id="创新项目管理经验总结"><a href="#创新项目管理经验总结" class="headerlink" title="创新项目管理经验总结"></a>创新项目管理经验总结</h2><pre><code>No reproduction without permission. ©️ April YANG</code></pre><p>###1. 项目准备及立项<br>   创新项目属于敏捷项目类型，在敏捷开发过程中，很难在项目初期确定好需求，蓝图非常宽泛，项目需求非常模糊。但随着项目时间的推移，可变因素应该逐步减少，需求逐渐清晰。</p><p>   在这个过程中，项目的参与人员是非常重要的，在立项阶段的人员，最好是能够全程参与&#x2F;引导本次项目的研发，如果可变因素较大，必须提出可替代方案，项目核心人员缺失，则会导致项目进度停滞。</p><p>###2. 市场调研</p><p>   和实际用户交谈显得尤为重要，如果一个项目架空“Stakeholders”，很难产出实际效益。</p><p>   创新项目的最大要点在于，研究出来的新产品、新方案、新模式，究竟是否能够真实的在市场上被需求？投入产出比是创新项目最大的问题，好的idea永远不缺，但如果缺少和实际客户&#x2F;用户群体的沟通，会导致整个项目处于“闭门造车”的状态，研发出来的高精尖功能将是针对“伪需求”的答案。</p><p>   譬如光谱集成设备研发公司可以靠改装光谱仪，研发出一个壁画年代鉴定仪器，对于部分考古学科研人员来说，确实是有应用空间，但是实际的市场需求量极小，花费多年研发出来的仪器在全球范围内或许都只能卖出1台甚至0台，没有几家大学、博物馆能够负担得起如此昂贵的设备费用，此类需求即是“伪需求”，我们可以假象如果考古学家有此设备将会非常方便，但他们实际使用又如何？此类项目研发建议不要投入生产，而是转为产品概念推广，如果有切实稳定需求再投产。    </p><pre><code>No reproduction without permission. ©️ April YANG</code></pre><p>   反之亦然，即使是传统项目中的拓展研发，整体用户需求其实相对固定，但不同学识背景、不同研究领域的人在讨论会议中的思想碰撞也会产出不一样的结果，必须要把握好和人交流的契机，说服他们按照约定的、切实际的项目技术路线实行。</p><p>###3. 收集需求<br>   并不是所有的创新项目都能实际产出价值，有很多方向需要去探索，但不一定有现实作用，用户的需求非常复杂，需要考虑使用社会学技巧收集用户需求。</p><ul><li>召开需求会议，与头部客户进行沟通；</li><li>撰写需求文档&#x2F;PPT，规划项目甘特图；</li><li>将解决方案返回给客户，聆听客户意见；</li><li>项目获批后执行。</li></ul><p>###4. 市场营销策略</p><p>   确定BOTTOM UP(或LEVEL DOWN)的市场策略后，要切身实地从业务角度去思考，怎样的市场计划以及投入可以实现公司的业务目标。<br>   如果公司的战略方向是发展中小客户的覆盖率，推广SaaS类产品，那么营销计划应该是围绕这个目标展开，比如有新品巡展、合作伙伴活动、SEM投放等。在种子客户&#x2F;社群&#x2F;自媒体平台&#x2F;客户服务方面花时间。</p><pre><code>No reproduction without permission. ©️ April YANG</code></pre>]]></content>
     
     
     <summary type="html">&lt;p&gt;Work Notes 04 | Project Management&lt;br&gt;创新项目管理总结&lt;/p&gt;</summary>
@@ -106,7 +104,7 @@
     
     <category term="WORK" scheme="http://example.com/tags/WORK/"/>
     
-    <category term="PROJECT MANAGEMENT" scheme="http://example.com/tags/PROJECT-MANAGEMENT/"/>
+    <category term="PROJECT" scheme="http://example.com/tags/PROJECT/"/>
     
   </entry>
   
@@ -159,7 +157,7 @@
     <link href="http://example.com/2022/10/19/PMP02/"/>
     <id>http://example.com/2022/10/19/PMP02/</id>
     <published>2022-10-19T06:25:00.000Z</published>
-    <updated>2023-01-13T08:16:57.414Z</updated>
+    <updated>2023-01-13T08:40:01.608Z</updated>
     
     <content type="html"><![CDATA[<p>PMP Course 02| Study Notes<br>The Importance of (Traditional) Project Management</p><span id="more"></span><h3 id="12-Project-management-principles"><a href="#12-Project-management-principles" class="headerlink" title="12 Project management principles"></a>12 Project management principles</h3><p>▶ Be a diligent, respectful, and caring steward (see Section 3.1).<br>▶ Create a collaborative project team environment (see Section 3.2).<br>▶ Effectively engage with stakeholders (see Section 3.3).<br>▶ Focus on value (see Section 3.4).<br>▶ Recognize, evaluate, and respond to system interactions (see Section 3.5).<br>▶ Demonstrate leadership behaviors (see Section 3.6).<br>▶ Tailor based on context (see Section 3.7).<br>▶ Build quality into processes and deliverables (see Section 3.8).<br>▶ Navigate complexity (see Section 3.9).<br>▶ Optimize risk responses (see Section 3.10).<br>▶ Embrace adaptability and resiliency (see Section 3.11).<br>▶ Enable change to achieve the envisioned future state (see Section 3.12).</p><h3 id="8-Project-Performance-Domains"><a href="#8-Project-Performance-Domains" class="headerlink" title="8 Project Performance Domains"></a>8 Project Performance Domains</h3><p>There are eight project performance domains:</p><p>▶ Stakeholders,<br>▶ Team,<br>▶ Development Approach and Life Cycle,<br>▶ Planning,<br>▶ Project Work,<br>▶ Delivery,<br>▶ Measurement, and<br>▶ Uncertainty.</p>]]></content>
     
@@ -173,9 +171,7 @@
     
     <category term="PMP" scheme="http://example.com/tags/PMP/"/>
     
-    <category term="REVIEW" scheme="http://example.com/tags/REVIEW/"/>
-    
-    <category term="STUDY" scheme="http://example.com/tags/STUDY/"/>
+    <category term="NOTES" scheme="http://example.com/tags/NOTES/"/>
     
   </entry>
   
@@ -207,7 +203,7 @@
     <link href="http://example.com/2022/10/18/PMP01/"/>
     <id>http://example.com/2022/10/18/PMP01/</id>
     <published>2022-10-18T02:46:56.000Z</published>
-    <updated>2023-01-13T08:16:51.316Z</updated>
+    <updated>2023-01-13T08:39:44.357Z</updated>
     
     <content type="html"><![CDATA[<p>PMP Course 01| Study Notes<br>Common Vocabulary In Project Management</p><span id="more"></span><h3 id="Project-Charter"><a href="#Project-Charter" class="headerlink" title="Project Charter"></a>Project Charter</h3><p>Project Charter provides the high-level project description and product characteristics. It authorizes the project and provides the Project Manager the authority to assign organization resources.</p><p>The Project sponsor is in the develop project charter process in the project integration management and is using the statement of work to understand the product requirements and descriptions. The output of this process is a project charter, which initiates the project once approved formally. A project charter documents high-level project descriptions and business needs of the project, along with a current understanding of the customer’s needs, risks, name of the sponsor, and so on.</p><p>The charter is important because it formally authorizes a project. The Project Manager must do whatever possible to get the charter issued.</p><h3 id="Portfolio-Manager"><a href="#Portfolio-Manager" class="headerlink" title="Portfolio Manager"></a>Portfolio Manager</h3><p>Portfolio refers to a collection of projects or programs grouped together to facilitate effective management to meet strategic business objectives, and the person managing it is called a Portfolio Manager. Portfolio management describes methods for analyzing and collectively managing a group of current or proposed projects based on numerous key characteristics like business objectives, technical strategy, goals, etc.</p><h3 id="Integrator"><a href="#Integrator" class="headerlink" title="Integrator"></a>Integrator</h3><p>The role of a Project Manager is the combination of all the options, but the one that is most critical to the project’s success is that of an Integrator. As described in the question, a Project Manager is expected to integrate the project management processes and coordinate the process phases through the project management cycle to ensure that all areas of the project come together to successfully deliver the project. Integration involves pulling together all aspects of project management including scope, cost, schedule, quality, and communication in addition to working with other departments such as Legal, Human Resources, Training, Contract Administration, and Information Technology.</p><h3 id="Prodcut-Scope"><a href="#Prodcut-Scope" class="headerlink" title="Prodcut Scope"></a>Prodcut Scope</h3><p>To differentiate project scope from product scope read through the definition of each. Product scope: the features and functions that characterize a product, service, or result. Project scope: the work that needs to be accomplished to deliver a product, service, or result with the specified features and functions. The product scope describes the function or service that will exist as a result of your project. The project scope, on the other hand, describes all the work to create the product scope. It includes only the required work to complete the project deliverable. Note: The completion of project scope is measured against the project management plan, the project scope statement and its associated Work Breakdown Structure (WBS), WBS dictionary, and scope baseline. Completion of product scope is measured against product features or requirements.</p>]]></content>
     
@@ -221,9 +217,7 @@
     
     <category term="PMP" scheme="http://example.com/tags/PMP/"/>
     
-    <category term="REVIEW" scheme="http://example.com/tags/REVIEW/"/>
-    
-    <category term="STUDY" scheme="http://example.com/tags/STUDY/"/>
+    <category term="NOTES" scheme="http://example.com/tags/NOTES/"/>
     
   </entry>
   
