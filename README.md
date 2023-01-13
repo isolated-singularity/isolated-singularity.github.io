@@ -6,8 +6,8 @@
 > 
 > And then there are the sacrifices that you can't even figure out why you're making.
 > 
-> A wise man once said: " ***You can have anything in life if you will sacrifice
-everything else for it.*** "
+> A wise man once said: ***"You can have anything in life if you will sacrifice
+everything else for it."***
 > 
 > What he meant is **nothing comes without a price**.
 > 
