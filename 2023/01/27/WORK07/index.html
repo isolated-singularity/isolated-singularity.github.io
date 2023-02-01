@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="Computer Networking Course">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="April">
+    
+
+    <!-- Title -->
+    
+    <title>WORK 07 | April</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//cdn.jsdelivr.net/npm/bootstrap@3.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- Custom Fonts -->
+    <link href="//cdn.jsdelivr.net/npm/font-awesome@4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Noto+Serif:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- jQuery -->
+    <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="//cdn.jsdelivr.net/npm/bootstrap@3.3.6/dist/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="April" type="application/atom+xml">
+</head>
+
+
+<body>
+
+    <!-- Content -->
+    <section class="article-container">
+    <!-- Back Home -->
+    <a class="nav-back" href="/">
+    <i class="fa fa-puzzle-piece"></i>
+</a>
+
+        <!-- Page Header -->
+        <header class="intro-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <div class="post-heading">
+                            <h1>
+                                WORK 07
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Post Content -->
+        <article>
+            <div class="container">
+                <div class="row">
+                    <!-- Post Main Content -->
+                    <div class="post-content col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <p>Computer Networking Course</p>
+<span id="more"></span>
+
+<h2 id="Introduction-To-Network-Devices"><a href="#Introduction-To-Network-Devices" class="headerlink" title="Introduction To Network Devices"></a>Introduction To Network Devices</h2><h3 id="1-OSI-Reference-Model"><a href="#1-OSI-Reference-Model" class="headerlink" title="1. OSI Reference Model"></a>1. OSI Reference Model</h3><p>   <strong>Layer 7 - Application</strong><br>   <strong>Layer 6 - Presentation</strong><br>   <strong>Layer 5 - Session</strong><br>   <strong>Layer 4 - Transport</strong><br>   <strong>Layer 3 - Network: Multilayer switch(MLS)&#x2F;Router</strong> </p>
+<p>   The MLS operates at more than just Layer 2 of the OSI model. The most common MLS is the Layer 3 switch. The ASIC chip is programmed to handle more than just the Layer 2 MAC address. The router is the most common device used to connect different networks together. It utilizes software programming to learn about routes between networks</p>
+<p>   <strong>Layer 2 - Data Link          Switch&#x2F;Wireless access point(WAP)</strong></p>
+<p>   The switch utilizes an ASIC chip to learn which devices are connected to which ports via the device’s Layer 2 MAC address. When the switch receives network traffic, it will only forward that traffic to the specified MAC address. The WAP is used to bridge wireless network segments with wired network segments.</p>
+<p>   <strong>Layer 1 - Physical           Analog modem&#x2F;Hub</strong></p>
+<p>   The OSI reference model was developed to help disparate devices communicate on networks. Devices may be classified by the level of the OSI model at which they operate. The analog modem modulates a digital signal into an analog signal and demodulates the return signal to allow for network communication. The hub receives a network signal on a port and replicates that signal out all of the remaining ports.</p>
+<h3 id="2-Security-Devices"><a href="#2-Security-Devices" class="headerlink" title="2. Security Devices"></a>2. Security Devices</h3><p>   Firewalls are the police force of the network. The either allow or deny network traffic based on a set of predefined rules. They may be an appliance or software based.<br>   An IDS will inform a network administrator when malicious actions have occurred (they are passive). An IPS is placed inline with network traffic and will take action when malicious activities are detected.</p>
+<h3 id="3-Optimazation-and-Performance-Devices"><a href="#3-Optimazation-and-Performance-Devices" class="headerlink" title="3. Optimazation and Performance Devices"></a>3. Optimazation and Performance Devices</h3><p>   A load balancer (also known as a content switch or content filter) is a network appliance that will balance requests across multiple devices that contain the same data. A proxy server acts on behalf of a client device to fulfill requests to retrieve data. It can also be used to limit what requests are fulfilled.</p>
+<h2 id="2-Networking-Services-and-Applications"><a href="#2-Networking-Services-and-Applications" class="headerlink" title="2. Networking Services and Applications"></a>2. Networking Services and Applications</h2><h3 id="VPN"><a href="#VPN" class="headerlink" title="VPN"></a>VPN</h3><p>   A virtual private network (VPN) is used by remote hosts to access a private network through an encrypted tunnel through a public network.</p>
+<ul>
+<li>site-to-site VPN</li>
+<li>remote-access (host-to-site) VPN</li>
+<li>host-to-host VPN (SSL VPN)</li>
+</ul>
+<p>   A VPN connection is used to allow remote sites or users to access a private network and to function as a local segment. A site-to-site VPN connects two sites together. A remote-access VPN allows select users to connect, but requires those users to have preconfigured VPN clients installed on their systems. A host-to-host VPN allows users to connect to the private network without the use of VPN client software.</p>
+<p>   IPsec <em>(Internet Protocol Security)</em> is the most common protocol suite used to secure VPN connections. It works at Layer 3 and above of the OSI model.<br>   GRE <em>(Generic Routing Encapsulation)</em> is a tunneling protocol that can encapsulate a wide variety of other network layer protocols. It is used in conjunction with IPsec to allow for multicast and broadcast packet transmissions.<br>   PPTP <em>(Point-to-Point Tunneling Protocol)</em> is an older VPN technology that supports dial-up VPN connections.<br>   TLS*(Transport Layer Security)* is a cryptographic protocol that provides authentication services; it is commonly used in Web based transactions and has largely replaced SSL*(Secure Sockets Layer)*.<br>   SSL is similar to TLS and has largely been replaced by it.</p>
+<h3 id="Network-access-services"><a href="#Network-access-services" class="headerlink" title="Network access services"></a>Network access services</h3><ul>
+<li><p>Network interface controller <em>(NIC)</em><br> Most modern computers come with at least one built in Ethernet NIC.</p>
+</li>
+<li><p>Remote Authentication Dial in User Service <em>(RADIUS)</em><br> AAA <em>(Authentication, Authorization, and Accounting)</em> protocol. Only the requestor’s password is encrypted.</p>
+</li>
+<li><p>Terminal Access Controller Access-Control System Plus*(TACACS+)*<br> AAA <em>(Authentication, Authorization, and Accounting)</em> protocol. All transmissions between devices are encrypted.</p>
+</li>
+</ul>
+<h3 id="Other-services-and-applications"><a href="#Other-services-and-applications" class="headerlink" title="Other services and applications"></a>Other services and applications</h3><ul>
+<li><p>RAS <em>(Remote Access Services)</em><br> Not a protocol, but a roadmap. A client requests access from a RAS server, which either grants or rejects access.</p>
+</li>
+<li><p>Web services<br> Creating a means of cross communication. Provides the means for communication between software packages or disparate platforms. It is usually achieved by translating the communication into an XML <em>(Extensible Markup Language)</em> format.</p>
+</li>
+<li><p>Unified voice services<br> Creating better voice communication systems.</p>
+</li>
+</ul>
+<h2 id="3-DHCP-in-the-network"><a href="#3-DHCP-in-the-network" class="headerlink" title="3. DHCP in the network"></a>3. DHCP in the network</h2><p>The Internet uses DNS <em>(Domain Name System)</em> to enable people to use words instead of numbers for Internet addresses. You can think of DNS as an Internet address book, mapping domain names to IP addresses.</p>
+<h3 id="Static-IP-addressing-amp-Dynamic-IP-addressing"><a href="#Static-IP-addressing-amp-Dynamic-IP-addressing" class="headerlink" title="Static IP addressing &amp; Dynamic IP addressing"></a>Static IP addressing &amp; Dynamic IP addressing</h3><p>IP configurations can be static or dynamic. In a static configuration, an administrator supplies all of the required IP information to each device that requires it in a network. In a dynamic configuration, an administrator configures a DHCP server to automatically distribute the required IP configuration information upon request.</p>
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3><h3 id="-1"><a href="#-1" class="headerlink" title=""></a></h3>
+
+                            <!-- Meta -->
+                            <div class="post-meta">
+                                <hr>
+                                <br>
+                                <div class="post-tags">
+                                    
+                                        
+
+<a href="/tags/NETWORK-ENGINEERING/">#NETWORK ENGINEERING</a> <a href="/tags/COMPUTER-NETWORK/">#COMPUTER NETWORK</a>
+
+
+                                            
+                                </div>
+                                <div class="post-date">
+                                    
+                                        2023-01-27
+                                    
+                                </div>
+                            </div>
+                    </div>
+
+                    <!-- Comments -->
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <!-- Disqus Comments -->
+
+
+                    </div>
+                </div>
+            </div>
+        </article>
+</section>
+
+<!-- Image viewer-->
+
+    <!-- Custom picture view-->
+    <link href="/css/viewer.min.css" rel="stylesheet" />
+    <script
+      src="/js/viewer.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    
+    <script type="text/javascript">
+      // set image viewer
+      Viewer.setDefaults({
+        zoomRatio: [0.5],
+        navbar: false,
+        toolbar: false,
+        button: false,
+        title: [2, (image, imageData) => `${image.alt}`],
+        show: function() {
+          this.viewer.zoomTo(0.5);
+        }
+      });
+      var imageList = document.getElementsByTagName("img");
+      Array.prototype.forEach.call(imageList, element => {
+        var viewer = new Viewer(element);
+      });
+    </script>
+
+    
+
+<!-- TOC -->
+
+    <aside id="article-toc" role="navigation" class="fixed">
+        <div id="article-toc-inner">
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Introduction-To-Network-Devices"><span class="toc-text">Introduction To Network Devices</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-OSI-Reference-Model"><span class="toc-text">1. OSI Reference Model</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Security-Devices"><span class="toc-text">2. Security Devices</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-Optimazation-and-Performance-Devices"><span class="toc-text">3. Optimazation and Performance Devices</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Networking-Services-and-Applications"><span class="toc-text">2. Networking Services and Applications</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#VPN"><span class="toc-text">VPN</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Network-access-services"><span class="toc-text">Network access services</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Other-services-and-applications"><span class="toc-text">Other services and applications</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-DHCP-in-the-network"><span class="toc-text">3. DHCP in the network</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Static-IP-addressing-amp-Dynamic-IP-addressing"><span class="toc-text">Static IP addressing &amp; Dynamic IP addressing</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-text"></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#-1"><span class="toc-text"></span></a></li></ol></li></ol>
+        </div>
+    </aside>
+
+    <!-- Scripts -->
+    <script type="text/javascript">
+    console.log("© zchen9 🙋 2015-" + new Date().getFullYear());
+</script>
+  
+    <!-- Google Analytics -->
+    
+
+    <!-- Service Worker -->
+    <!-- if using service worker -->
+
+    
+</body>
+
+</html>
