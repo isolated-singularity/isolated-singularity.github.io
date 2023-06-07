@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-02-08T06:50:11.529Z</updated>
+  <updated>2023-06-07T09:54:12.757Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SCRIPT01</title>
+    <link href="http://example.com/2023/05/30/SCRIPT01/"/>
+    <id>http://example.com/2023/05/30/SCRIPT01/</id>
+    <published>2023-05-30T05:28:11.000Z</published>
+    <updated>2023-06-07T09:54:12.757Z</updated>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p><strong>Title:</strong> Welcome to April Talk - My Journey Learning English, Tech Info, and Business Books!</p><p><strong>[Your Channel Name]’s Intro Music&#x2F;Jingle</strong></p><p><strong>Scene 1: (Introducing yourself and your channel)</strong></p><blockquote><p>Hi everyone! Welcome to my channel, April Talk. My name is April, and I’m super excited to start this journey with you all. I created this channel to practice my oral English and share my passion for technical information, business books, and captivating stories with you.</p></blockquote><p><strong>Scene 2: (Talking about your background)</strong></p><blockquote><p>Let me tell you a little bit about myself. I’m originally from Mainland China, and I’ve always been fascinated by technology and the business world. I’ve been practicing my oral English for a while now, and I think creating this vlog will help me improve my speaking skills while also allowing me to talk about the things I love.</p></blockquote><p><strong>Scene 3: (Sharing what to expect on your channel)</strong></p><blockquote><p>So, what can you expect from my channel? I’ll be sharing:</p><ol><li><strong>Technical Information</strong> - I’ll be diving into various tech topics, from programming languages to the latest gadgets and software. I’ll also be sharing tips, tricks, and tutorials to help you keep up with the tech world.</li></ol></blockquote><blockquote><ol start="2"><li><strong>Business Books</strong> - I’ll be discussing the key takeaways from some of the best business books out there. I’ll share my thoughts on the books I’ve read and provide recommendations for books that you might enjoy.</li><li><strong>Stories</strong> - I’ll be reading out loud captivating stories that I come across. This will not only help me practice my English but also give you some entertainment and inspiration.</li></ol><p>I’ll be posting videos regularly, so make sure to subscribe and turn on notifications so you don’t miss any content!</p></blockquote><p><strong>Scene 4: (Closing remarks and Call-to-Action)</strong></p><blockquote><p>Before I wrap up this introduction video, I want to invite you to be a part of my journey. I’d love to hear your thoughts, suggestions, and any feedback on my videos. Feel free to leave comments and engage with me on social media. Your support means the world to me!</p><p>Don’t forget to like this video, subscribe to my channel, and hit the notification bell to stay updated on all things [Your Channel Name]. I can’t wait to get started on this journey with you all. See you in my next video!</p><p><strong>[Your Channel Name]’s Outro Music&#x2F;Jingle</strong></p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Welcome to April Talk - My Journey Learning English, Tech Info, and Business Books!&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>WORK08</title>
+    <link href="http://example.com/2023/05/09/WORK08/"/>
+    <id>http://example.com/2023/05/09/WORK08/</id>
+    <published>2023-05-09T02:12:34.000Z</published>
+    <updated>2023-05-30T05:30:40.641Z</updated>
+    
+    <content type="html"><![CDATA[<p>Job interview presentation by @April </p><span id="more"></span><p>Smart Traffic Fund Application: </p><hr><p>Hong Kong’s roads are among the most heavily used in the world, with over 809,000 vehicles on 2,223 kilometres (km) of roads — 450 km on Hong Kong Island, 479 km in Kowloon and 1,294 km in the New Territories. Together with the dense development and difficult terrain, it imposes a constant challenge to the highway engineers. </p><p>Mountainous highways can be challenging to navigate due to their steep inclines, sharp turns, and unpredictable weather conditions. To improve road safety and prevent accidents, an AI monitoring system can be designed using &#x2F;&#x2F;&#x2F;&#x2F;‘s Product, &#x2F;&#x2F;&#x2F;&#x2F;&#x2F;. </p><p>This system involves installing our product at critical locations along the highway, such as intersections, steep slopes, and sharp bends, to scan the road surface and generate point cloud data in real-time. </p><p>This data is then transmitted to the cloud and processed using deep learning algorithms to identify different objects such as vehicles, pedestrians, buildings, and trees. The system can also detect road surface conditions such as bumps, cracks, and potholes, and track the movement of vehicles using object-tracking techniques. The collected data can be visualized and analyzed in charts, maps, and other forms to help decision-makers better understand the highway’s situation and make informed decisions. An AI monitoring system for mountainous highways using our product can significantly enhance road safety and reduce traffic accidents. </p><p>According to the reports from the Transport Department, there are three types of traffic detectors are installed for different purposes:<br>(a)video detectors – these detectors collect data on traffic speed and volume and automatically detect traffic incidents on roads through video analytics, and output snapshot images;<br>(b)automatic licence plate recognition detectors  – these detectors collect traffic volume of different vehicle classes on roads through matching of licence plate numbers captured by the detectors and TD’s vehicle licensing system; and<br>(c)Bluetooth detectors  – these detectors generate data on average vehicular speed and journey time by detecting Media Access Control addresses of Bluetooth devices in vehicle</p><p>But there are limitations on these detectors and they’re unable to conduct spatial point data analysis. In Hong Kong, the mountainous terrain, heavy rain and dense development make us prone to landslides, causing loss of lives and properties. To address these challenges, our proposed monitoring system can complement existing traffic detectors by providing a more comprehensive and accurate understanding of the highway’s situation. SpatialSense can detect and analyze the spatial point data, which is not possible with the existing detectors. This means that our system can detect and monitor the road surface conditions and identify potential risks such as landslides even before they happen. </p><p>Moreover, our system can also provide real-time alerts and notifications to relevant authorities and drivers through various channels such as integrated with mobile apps, messaging platforms, and electronic road signs. This can help to improve emergency response times and reduce the impact of accidents or other incidents on traffic flow.</p><p>The proposed monitoring system can also help to optimize traffic management and reduce congestion on mountainous highways. By analyzing the traffic flow data and identifying bottlenecks and congestion points, authorities can make informed decisions on the deployment of resources such as traffic police, road maintenance crews, and emergency services. This can help to improve traffic flow and reduce the likelihood of accidents caused by congestion.</p><p>In terms of funding, the implementation of our monitoring system using SpatialSense will require investment in the installation of the product at critical locations along the highways, as well as the development and deployment of the deep learning algorithms and cloud infrastructure needed to process and analyze the data. However, the benefits of the system in terms of improved road safety, reduced traffic accidents, and optimized traffic management can outweigh the costs in the long run. </p><p>Our proposed monitoring system for mountainous highways in Hong Kong is aligned with the goals of the Smart Traffic Fund, as it aims to improve road safety, reduce traffic congestion, enable better decision-making, enhance the driving experience, and can be scaled up for future expansion.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Job interview presentation by @April &lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>SWIFT01</title>
