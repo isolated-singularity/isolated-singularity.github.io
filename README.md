@@ -1,5 +1,5 @@
 # 하고싶은것 & 해야만하는것 & 할수있는것
-## 내가 [하고 싶은 것](https://94-09-12.github.io/)
+## 내가 [하고 싶은 것](https://isolated-singularity.github.io/)
 > There are days that make the sacrifices seem worthwhile.
 > 
 > And then there are the days where everything feels like a sacrifice.
